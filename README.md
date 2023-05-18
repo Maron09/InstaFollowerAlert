@@ -2,32 +2,42 @@
 
 The Instagram Follower Tracker is a Python script that allows you to track new followers of a specific Instagram account. It utilizes the Instagram Private API to retrieve follower information and compare it with the previous follower count.
 
-Prerequisites
+**Prerequisites**
 
 
 `Python 3.x`
+
 `instagram-private-api library`
+
 `fake_useragent library`
+
 `bs4 (BeautifulSoup) library`
+
 `requests library`
 
 
-Setup
+**Setup**
 
 
 Install the required libraries:
 
-instagram-private-api: A library for interacting with the Instagram Private API.
-fake_useragent: A library for generating random User-Agent headers.
-bs4 (BeautifulSoup): A library for parsing HTML documents.
-requests: A library for making HTTP requests.
+`instagram-private-api`: A library for interacting with the Instagram Private API.
+
+`fake_useragent`: A library for generating random User-Agent headers.
+
+`bs4 (BeautifulSoup)`: A library for parsing HTML documents.
+
+`requests`: A library for making HTTP requests.
+
 Import the necessary libraries:
 
-instagram-private-api: Import the Client class for interacting with the Instagram Private API.
-fake_useragent: Import the UserAgent class for generating User-Agent headers.
-bs4 (BeautifulSoup): Import the BeautifulSoup class for parsing HTML documents.
-requests: Import the requests module for making HTTP requests.
-Usage
+`instagram-private-api`: Import the Client class for interacting with the Instagram Private API.
+`fake_useragent`: Import the UserAgent class for generating User-Agent headers.
+`bs4 (BeautifulSoup)`: Import the BeautifulSoup class for parsing HTML documents.
+`requests`: Import the requests module for making HTTP requests.
+
+
+**Usage**
 Specify the Instagram account credentials:
 
 Set the username variable to your Instagram username.
@@ -54,7 +64,7 @@ To stop the script, you can terminate the program manually.
 
 
 
-Limitations
+**Limitations**
 
 
 The script relies on the Instagram Private API, which may be subject to changes and restrictions by Instagram. Please use it responsibly and in accordance with Instagram's terms of service.
@@ -62,7 +72,7 @@ The script does not handle exceptions or errors gracefully. Additional error han
 The script assumes that the JSON file is formatted as an array of follower usernames.
 
 
-Disclaimer
+**Disclaimer**
 
 
 Please be aware of the legal implications of using automated tools to interact with Instagram. Make sure to review and comply with Instagram's terms of service and API usage guidelines.
