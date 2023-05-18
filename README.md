@@ -5,11 +5,11 @@ The Instagram Follower Tracker is a Python script that allows you to track new f
 Prerequisites
 
 
-Python 3.x
-instagram-private-api library
-fake_useragent library
-bs4 (BeautifulSoup) library
-requests library
+`Python 3.x`
+`instagram-private-api library`
+`fake_useragent library`
+`bs4 (BeautifulSoup) library`
+`requests library`
 
 
 Setup
